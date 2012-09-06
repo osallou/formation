@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111026</FitNesseVersion>
+  <rootPath>PocketTest</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>2</wrong>
+      <ignores>0</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <runTimeInMillis>6</runTimeInMillis>
+    <content><![CDATA[<div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><span class="meta">classpath: /Users/osallou/Development/eclipse/workspace/formation/target/pocker-0.0.1-SNAPSHOT.jar</span><br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3">formation.code.PockerFixture</td>
+	</tr>
+	<tr>
+		<td>numerator</td>
+		<td>denominator</td>
+		<td>quotient?</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>2</td>
+		<td class="pass">5</td>
+	</tr>
+	<tr>
+		<td>12.6</td>
+		<td>3</td>
+		<td class="fail">4.2 <span class="fit_label">expected</span><hr>4.2000003 <span class="fit_label">actual</span></td>
+	</tr>
+	<tr>
+		<td>100</td>
+		<td>4</td>
+		<td class="fail">33 <span class="fit_label">expected</span><hr>25.0 <span class="fit_label">actual</span></td>
+	</tr>
+</table>
+<br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3">ActionFixture</td>
+	</tr>
+	<tr>
+		<td>start</td>
+		<td colspan="2">CountCardsFixture</td>
+	</tr>
+	<tr>
+		<td class="error">addCards<hr><pre><div class="fit_stacktrace">java.lang.NoSuchMethodException: fit.ActionFixture.addCards()
+	at java.lang.Class.getMethod(Class.java:1605)
+	at fit.ActionFixture.doCells(ActionFixture.java:23)
+	at fit.Fixture.doRow(Fixture.java:165)
+	at fit.Fixture.doRows(Fixture.java:159)
+	at fit.Fixture.doTable(Fixture.java:153)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:105)
+	at fit.Fixture.doTables(Fixture.java:79)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+</div></pre></td>
+		<td colspan="2">10</td>
+	</tr>
+	<tr>
+		<td class="error">check<hr/> <span class="fit_label">Could not find method: numberOfCards.</span></td>
+		<td>number of cards</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td class="error">addCards<hr><pre><div class="fit_stacktrace">java.lang.NoSuchMethodException: fit.ActionFixture.addCards()
+	at java.lang.Class.getMethod(Class.java:1605)
+	at fit.ActionFixture.doCells(ActionFixture.java:23)
+	at fit.Fixture.doRow(Fixture.java:165)
+	at fit.Fixture.doRows(Fixture.java:159)
+	at fit.Fixture.doTable(Fixture.java:153)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:105)
+	at fit.Fixture.doTables(Fixture.java:79)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+</div></pre></td>
+		<td colspan="2">1</td>
+	</tr>
+	<tr>
+		<td class="error">check<hr/> <span class="fit_label">Could not find method: numberOfCards.</span></td>
+		<td>number of cards</td>
+		<td>11</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>PocketTest</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

@@ -1,0 +1,24 @@
+!contents -R2 -g -p -f -h
+!path /Users/osallou/Development/eclipse/workspace/formation/target/pocker-0.0.1-SNAPSHOT.jar
+
+|formation.code.PockerFixture|
+|numerator  |denominator  |quotient?  |
+|10         |2            |5          |
+|12.6       |3            |4.2        |
+|100        |4            |25         |
+
+
+
+|formation.code.PockerFixture|
+|hand1  |hand2  |bestHand?  |
+|5c         |5c 3p            |5c 3p     |
+|5c 5p       |3p           |5c 5p        |
+|5c        |5c            |null         |
+
+
+!|ActionFixture|
+|start|CountCardsFixture|
+|enter|add cards|10|
+|check|number of cards|10|
+|enter|add cards|1|
+|check|number of cards|11|

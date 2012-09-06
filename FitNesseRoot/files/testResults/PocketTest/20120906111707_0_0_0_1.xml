@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111026</FitNesseVersion>
+  <rootPath>PocketTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+    <content><![CDATA[<div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><span class="meta">classpath: /Users/osallou/Development/eclipse/workspace/formation/pocker.jar</span><br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3" class="error">formation.code.Pocker<hr/> <span class="fit_label">Class formation.code.Pocker is not a fixture.</span></td>
+	</tr>
+	<tr>
+		<td>numerator</td>
+		<td>denominator</td>
+		<td>quotient?</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>2</td>
+		<td>5</td>
+	</tr>
+	<tr>
+		<td>12.6</td>
+		<td>3</td>
+		<td>4.2</td>
+	</tr>
+	<tr>
+		<td>100</td>
+		<td>4</td>
+		<td>33</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>PocketTest</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

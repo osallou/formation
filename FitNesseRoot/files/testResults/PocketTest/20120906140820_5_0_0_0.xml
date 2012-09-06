@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111026</FitNesseVersion>
+  <rootPath>PocketTest</rootPath>
+    <result>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>4</runTimeInMillis>
+    <content><![CDATA[<div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><span class="meta">classpath: /Users/osallou/Development/eclipse/workspace/formation/target/pocker-0.0.1-SNAPSHOT.jar</span><br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3">formation.code.PockerFixture</td>
+	</tr>
+	<tr>
+		<td>numerator</td>
+		<td>denominator</td>
+		<td>quotient?</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>2</td>
+		<td class="pass">5</td>
+	</tr>
+	<tr>
+		<td>12.6</td>
+		<td>3</td>
+		<td class="pass">4.2</td>
+	</tr>
+	<tr>
+		<td>100</td>
+		<td>4</td>
+		<td class="pass">25</td>
+	</tr>
+</table>
+<br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3">ActionFixture</td>
+	</tr>
+	<tr>
+		<td>start</td>
+		<td colspan="2">CountCardsFixture</td>
+	</tr>
+	<tr>
+		<td>enter</td>
+		<td>add cards</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>number of cards</td>
+		<td class="pass">10</td>
+	</tr>
+	<tr>
+		<td>enter</td>
+		<td>add cards</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>number of cards</td>
+		<td class="pass">11</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>PocketTest</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

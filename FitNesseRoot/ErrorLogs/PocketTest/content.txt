@@ -1,0 +1,6 @@
+!3 !-fit-!
+|'''Date: '''|!-3:21:42 PM (CEST) on Thursday, September 6, 2012-!|
+|'''Test Page: '''|.PocketTest|
+|'''Command: '''|!-java -cp fitnesse.jar:/Users/osallou/Development/eclipse/workspace/formation/target/pocker-0.0.1-SNAPSHOT.jar fit.FitServer guest-rocq-135227.inria.fr 8090 25-!|
+|'''Exit code: '''|!-0-!|
+|'''Time elapsed: '''|!-0.597 seconds-!|
