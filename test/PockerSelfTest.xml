@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="guest-rocq-135226.inria.fr" name="formation.test.PockerTest" tests="1" time="0.042" timestamp="2012-09-05T14:19:36">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="lib.dir" value="lib" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="fb6d6212a4662c050a89f1b8209f22c4" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="env.TMPDIR" value="/var/folders/0I/0IvvqODzFlG8UrxkVeYYU++++TI/-Tmp-/" />
+    <property name="env.PWD" value="/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/usr/share/java/ant-1.8.2" />
+    <property name="java.runtime.version" value="1.6.0_33-b03-424-10M3720" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-Bt0RM8/Render" />
+    <property name="env.DISPLAY" value="/tmp/launch-QH0SAn/org.x:0" />
+    <property name="user.name" value="osallou" />
+    <property name="env.USER" value="osallou" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0:0" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="env.PATH" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Developer/Tools/Panda3D:/usr/texbin:/usr/X11/bin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="ant.project.default-target" value="create-jar" />
+    <property name="doc.dir" value="doc" />
+    <property name="ant.project.name" value="formation" />
+    <property name="env.LC_CTYPE" value="UTF-8" />
+    <property name="java.version" value="1.6.0_33" />
+    <property name="version" value="1.0" />
+    <property name="user.timezone" value="" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="1" />
+    <property name="ant.file.formation" value="/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue/build.xml" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="env.BUILD_NUMBER" value="1" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="env.JAVA_MAIN_CLASS_8133" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="osallou" />
+    <property name="ant.file" value="/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue/build.xml" />
+    <property name="os.version" value="10.6.8" />
+    <property name="env.HUDSON_COOKIE" value="6d3f37eb-0c49-4d64-9643-da2e63a5e9a7" />
+    <property name="env.TERM_PROGRAM_VERSION" value="273.1" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.8-b03-424" />
+    <property name="ant.library.dir" value="/usr/share/java/ant-1.8.2/lib" />
+    <property name="env.JOB_NAME" value="formation" />
+    <property name="env.JAVA_HOME" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="env.TERM" value="xterm-color" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="env.HUDSON_URL" value="http://localhost:8080/" />
+    <property name="env.BUILD_TAG" value="jenkins-formation-1" />
+    <property name="user.home" value="/Users/osallou" />
+    <property name="env.JENKINS_HOME" value="/Users/osallou/.jenkins" />
+    <property name="env.JOB_URL" value="http://localhost:8080/job/formation/" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+    <property name="test.dir" value="test" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="env.JAVA_MAIN_CLASS_8083" value="Main" />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="env.HUDSON_HOME" value="/Users/osallou/.jenkins" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="bin.dir" value="bin" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="fb6d6212a4662c050a89f1b8209f22c4" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 17 2012" />
+    <property name="ant.file.type.formation" value="file" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner formation.test.PockerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue/test/PockerSelfTest.xml crashfile=/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue/junitvmwatcher5983243431975114990.properties propsfile=/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue/junit5220311620984358714.properties" />
+    <property name="java.class.path" value="/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue/bin:/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue/lib/junit.jar:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/java/ant-1.8.2/lib/ant.jar:/usr/share/java/ant-1.8.2/lib/ant-junit.jar:/usr/share/java/ant-1.8.2/lib/ant-junit4.jar" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="env.com.apple.java.jvmMode" value="client" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="/Users/osallou" />
+    <property name="env.ANT_HOME" value="/usr/share/java/ant-1.8.2" />
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/formation/1/" />
+    <property name="java.io.tmpdir" value="/var/folders/0I/0IvvqODzFlG8UrxkVeYYU++++TI/-Tmp-/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-LPf6PN/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="mrj.build" value="10M3720" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="user.dir" value="/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue" />
+    <property name="mrj.version" value="1060.1.6.0_33-424" />
+    <property name="env.com.apple.java.jvmTask" value="CommandLine.java.java" />
+    <property name="env.BUILD_ID" value="2012-09-05_16-19-34" />
+    <property name="env.JAVA_ARCH" value="x86_64" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.JENKINS_URL" value="http://localhost:8080/" />
+    <property name="basedir" value="/Users/osallou/Development/eclipse/workspace/formationintegrationcontinue" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/usr/share/java/ant-1.8.2/lib/ant.jar" />
+    <property name="file.encoding" value="MacRoman" />
+    <property name="env.WORKSPACE" value="/Users/osallou/.jenkins/workspace/formation" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="src" />
+    <property name="javadoc.dir" value="doc/JavaDoc" />
+    <property name="ant.project.invoked-targets" value="create-jar" />
+    <property name="env.NODE_LABELS" value="master" />
+  </properties>
+  <testcase classname="formation.test.PockerTest" name="testNewPocker" time="0.0020" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="formation" basedir="." default="create-jar">
+
+	<property environment="env" />
+
+	<property name="version" value="1.0" />
+
+
+	<property name="src.dir" value="src" />
+	<property name="bin.dir" value="bin" />
+	<property name="lib.dir" value="lib" />
+	<property name="test.dir" value="test" />
+	<property name="javadoc.dir" value="doc/JavaDoc" />
+	<property name="doc.dir" value="doc" />
+
+	<patternset id="java.libs" includes="*.jar" />
+	<path id="mylibs">
+		<fileset dir="${basedir}/lib">
+			<patternset refid="java.libs" />
+		</fileset>
+	</path>
+
+
+
+	<target name="clean" description="Delete all generated files">
+		<delete dir="${bin.dir}" />
+	</target>
+
+	<target name="compile" description="Compile src files" depends="clean">
+		<delete dir="${bin.dir}" />
+		<mkdir dir="${bin.dir}" />
+		<javac classpathref="mylibs" srcdir="${src.dir}" destdir="${bin.dir}">
+
+		</javac>
+
+	</target>
+
+
+	<target name="create-jar" description="Create jar file" depends="test,javadoc">
+		<jar destfile="pocker.jar" basedir="${bin.dir}" excludes="**/*Test.class"
+			update="true">
+			<manifest>
+				<attribute name="Main-Class" value="formation.code.Pocker" />
+				<attribute name="Implementation-Version" value="${version}" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="test" description="Self integration test"
+		depends="compile">
+		<junit printsummary="yes" fork="yes" haltonfailure="yes">
+			<classpath>
+				<pathelement path="${classpath}" />
+				<pathelement path="${bin.dir}" />
+				<pathelement location="${lib.dir}/junit.jar" />
+			</classpath>
+			<formatter type="xml" />
+			<test name="formation.test.PockerTest" todir="${test.dir}"
+				outfile="PockerSelfTest" />
+		</junit>
+	</target>
+
+	<target name="javadoc">
+		<javadoc access="public" destdir="${javadoc.dir}" author="true"
+			version="true" use="true" windowtitle="formation.code">
+
+			<fileset dir="${src.dir}" defaultexcludes="yes">
+				<include name="formation/code/*.java" />
+				<exclude name="formation/test/*.java" />
+			</fileset>
+		</javadoc>
+	</target>
+
+
+</project>
