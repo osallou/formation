@@ -8,7 +8,7 @@ public class PockerFixture extends ColumnFixture {
 	public float denominator;
 	
 	public float quotient() {
-        return numerator/denominator;
+        return (float)(Math.round(numerator/denominator*10.0)/10.0);
    }
 	
 }
